@@ -16,7 +16,7 @@ selic = ip.timeseries('BM12_TJOVER12', yearGreaterThan=2021, yearSmallerThan=202
 selic
 
 ####
-ip.timeseries('BM12_TJOVER12', year=2021).plot("MONTH", "VALUE ((% a.m.))",ax=ax)
+ip.timeseries('BM12_TJOVER12', year=2021).plot("MONTH", "VALUE ((% a.m.))")
 ip.timeseries('BM12_TJOVER12', year=2022).plot("MONTH", "VALUE ((% a.m.))",ax=ax)
 fig, ax = plt.subplots()
 st.pyplot(fig)
