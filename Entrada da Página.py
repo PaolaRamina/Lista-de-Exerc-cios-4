@@ -22,10 +22,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Exercício Projetos
-st.set_page_config(
-page_title="Exercício Projetos",
-page_icon="📊", 
-)
+#st.set_page_config(
+#page_title="Exercício Projetos",
+#page_icon="📊", 
+#)
 
 # Arquivo utilizado
 arquivo = "https://raw.githubusercontent.com/PaolaRamina/aula_teste/main/empresa1.csv" 
@@ -63,25 +63,26 @@ df["Projeto1"].plot(kind = 'hist')
 df["Projeto4"].plot(kind = 'hist')
 st.pyplot(fig)
 
+"---"
 
 import ipeadatapy as ip
 
 # Exercício IPEADATA
-st.set_page_config(
-page_title="Exercício IPEADATA",
-page_icon="📆", 
-)
+#st.set_page_config(
+#page_title="Exercício IPEADATA",
+#page_icon="📆", 
+#)
 
 ip.list_series('Selic')
 
 #####
 
 selic = ip.timeseries('BM12_TJOVER12', yearGreaterThan=2021, yearSmallerThan=2024)
-selic
+st.write(selic)
 
 ####
 
 ip.timeseries('BM12_TJOVER12', year=2021).plot("MONTH", "VALUE ((% a.m.))")
 ip.timeseries('BM12_TJOVER12', year=2022).plot("MONTH", "VALUE ((% a.m.))")
-plt.show()
+st.pyplot(fig)
 
