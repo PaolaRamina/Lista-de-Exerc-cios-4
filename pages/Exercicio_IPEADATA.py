@@ -1,3 +1,4 @@
+import streamlit as st
 import ipeadatapy as ip
 
 # Exercício IPEADATA
