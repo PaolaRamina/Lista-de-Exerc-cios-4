@@ -35,7 +35,7 @@ st.write(df.groupby('ano')[colunas].sum())
 
 # 4
 fig, ax = plt.subplots()
-df.plot(kind = 'scatter', x = 'Projeto1', y = 'Projeto2', color='darkgreen', marker='*')
+df.plot(kind = 'scatter', x = 'Projeto1', y = 'Projeto2', color='darkgreen', marker='*', ax=ax)
 st.pyplot(fig)
 
 # 5
