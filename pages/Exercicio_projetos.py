@@ -9,7 +9,7 @@ page_icon="📊",
 )
 
 # Arquivo utilizado
-arquivo = "https://raw.githubusercontent.com/PaolaRamina/aula_teste/main/empresa1.csv" 
+arquivo = "https://raw.githubusercontent.com/PaolaRamina/Lista-de-Exercicios-4/main/projetos-1.csv" 
 df = pd.read_csv(arquivo, sep=';') 
 st.dataframe(df)
 
