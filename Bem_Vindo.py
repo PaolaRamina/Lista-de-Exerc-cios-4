@@ -12,7 +12,7 @@ st.header("Bem-vindo à nossa nova criação!")
 
 st.subheader("Viramos garotas de programa! 😉")
 
-st.write("Ana")
-st.write("Paola")
+st.write("Olá, eu sou a Ana. tenho 21 anos e em dias de prova sempre estou ocupada.")
+st.write("Olá, eu sou a Paola Ramina, a inimiga oficial do float.")
 
 
