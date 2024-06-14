@@ -9,16 +9,16 @@ page_icon="📊",
 
 # Arquivo utilizado
 arquivo = "https://raw.githubusercontent.com/PaolaRamina/aula_teste/main/empresa1.csv" 
-dfe = pd.read_csv(arquivo, sep=';') 
-st.dataframe(dfe)
+df = pd.read_csv(arquivo, sep=';') 
+st.dataframe(df)
 
 st.header("Os dados se referem aos valores futuros previstos para receita mensal de 5 projetos diferentes. A análise dos dados permitirá a decisão sobre o investitmento em um ou mais alternativas de projetos. Neste cenário, os dados futuros se referem ao período de 2022 e 2023, logo, a data referência da análise é de dezembro/2021") 
 
 
 # 1
-arquivo = "projetos.csv" 
-df = pd.read_csv(arquivo, sep=';') 
-df.head(23)
+#arquivo = "projetos.csv" 
+#df = pd.read_csv(arquivo, sep=';') 
+#df.head(23)
 
 # 2
 
