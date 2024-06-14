@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 #)
 
 # Arquivo utilizado
-arquivo = "https://raw.githubusercontent.com/PaolaRamina/aula_teste/main/empresa1.csv" 
+arquivo = "https://github.com/PaolaRamina/Lista-de-Exercicios-4/blob/main/projetos-1.csv" 
 df = pd.read_csv(arquivo, sep=';') 
 st.dataframe(df)
 
