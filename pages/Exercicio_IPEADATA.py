@@ -1,5 +1,6 @@
 import streamlit as st
 import ipeadatapy as ip
+import matplotlib.pyplot as plt
 
 # Exercício IPEADATA
 st.set_page_config(
