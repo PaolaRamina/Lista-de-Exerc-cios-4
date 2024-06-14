@@ -34,12 +34,12 @@ st.write(df.groupby('ano')[colunas].sum())
 
 
 # 4
-
+fig, ax = plt.subplots()
 df.plot(kind = 'scatter', x = 'Projeto1', y = 'Projeto2', color='darkgreen', marker='*')
 st.pyplot(fig)
 
 # 5
-
+fig, ax = plt.subplots()
 df["Projeto1"].plot(kind = 'hist')
 df["Projeto4"].plot(kind = 'hist')
 st.pyplot(fig)
