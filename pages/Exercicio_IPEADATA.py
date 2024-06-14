@@ -1,5 +1,5 @@
 import streamlit as st
-
+import ipeadatapy as ip
 
 # Exercício IPEADATA
 st.set_page_config(
