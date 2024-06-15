@@ -8,6 +8,7 @@ page_title="Exercício Projetos",
 page_icon="📊", 
 )
 
+st.header("Análise dos 5 projetos")
 st.write("Os dados se referem aos valores futuros previstos para receita mensal de 5 projetos diferentes. A análise dos dados permitirá a decisão sobre o investitmento em um ou mais alternativas de projetos. Neste cenário, os dados futuros se referem ao período de 2022 e 2023, logo, a data referência da análise é de dezembro/2021") 
 
 # Arquivo utilizado
