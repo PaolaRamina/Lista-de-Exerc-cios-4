@@ -36,11 +36,13 @@ st.write(df.groupby('ano')[colunas].sum())
 
 
 # 4
+st.write("Gráfico de dispersão cruzando os dados do Projeto1 e Projeto2")
 fig, ax = plt.subplots()
 df.plot(kind = 'scatter', x = 'Projeto1', y = 'Projeto2', color='darkgreen', marker='*', ax=ax)
 st.pyplot(fig)
 
 # 5
+st.write("Gráfico do tipo histograma com os dados do Projeto 1 e Projeto4")
 fig, ax = plt.subplots()
 df["Projeto1"].plot(kind = 'hist')
 df["Projeto4"].plot(kind = 'hist')
