@@ -11,7 +11,7 @@ page_icon="📆",
 ip.list_series('Selic')
 
 #####
-
+st.write("Resultados para o indicador "Taxa de juros - Over / Selic - acumulada no mês na base da IPEADATA")
 selic = ip.timeseries('BM12_TJOVER12', yearGreaterThan=2021, yearSmallerThan=2024)
 selic
 
